@@ -10,6 +10,7 @@ Open terminal or command prompt and run:
 
 ```bash
 git --version
+```
 
 ## Configure Git (First Time Setup)
 
@@ -21,8 +22,9 @@ This information is attached to every commit you make.
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
-
-**Check Configuration**
+```
+## Check Configuration
 
 ```bash
 git config --list
+```
