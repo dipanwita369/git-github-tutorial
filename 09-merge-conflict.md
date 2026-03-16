@@ -3,11 +3,17 @@
 A merge conflict occurs when Git cannot automatically merge changes from two branches.
 
 This often happens when two developers modify the `same file` or `same line of code`.
+
 let,
+
 original file --> `print("Hello");`
+
 Change in main file --> `print("Hello from main");`
+
 Change in feature file --> `print("Hello from feature");`
+
 when merging -->
+
 ```bash
 git merge feature
 ```
